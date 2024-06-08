@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  /* =====| Color |===== */
+  --text-primary: #1f4b2c;
+  --text-secondary: #f4fffc;
+  --text-three: #5f6c7b;
+  --text-four: #d8eefe;
+  --text-five: #3da9fc;
+
+  --bg-primary: #c3e956;
+  --bg-secondary: #f4fffc;
+  --bg-three: #91eaaf;
+  --bg-four: #4d7111;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+}
+.nn {
+  font-family: "Acme", sans-serif;
+}
+.nav_bg {
+  background: var(--bg-primary);
+}
+.navbar-brand {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.container_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-primary);
+}
+.header_title {
+  font-family: "Acme", sans-serif;
+  font-size: 82px;
+  color: var(--text-primary);
+}
+.header_subtitle {
+  font-size: 30px;
+  color: var(--text-secondary);
+}
+.produk_title {
+  font-family: "Acme", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+/* .container_produk {
+  width: 900px;
+} */
+.card-img-top {
+  width: 100%;
+  height: 300px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+.card {
+  width: 100%;
+  border: none;
+  background: var(--bg-primary);
+}
+.container_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-primary);
+}
+
+.column {
+  flex-direction: column;
+}
+
+.addres_footer {
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.bg_primary {
+  background: var(--bg-primary);
+}
+
+.brand_footer {
+  font-family: "Acme", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.text_footer {
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.text_footer a {
+  text-decoration: none;
+  color: var(--text-three);
+}
